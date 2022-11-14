@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+	<title> Homework </title>
+</head>
+
+
+<header>
+  <div class="head"> 
+    <img src="https://e7.pngegg.com/pngimages/91/455/png-clipart-computer-icons-businessperson-company-man-icon-company-people.png" class="logo" align="center">
+    <h1 class="hea"> Homework</h1>
+  </div>
+  
+
+
+
+</header>
+
+
+
+<body>
+<div class="navig">
+   <nav class="navi">
+    <a href="#table" class="sil" >Menu</a>
+    <a href="about/about.html" class="sil">About</a> 
+    <a href="second.html" class="sil">Page</a> 
+  </nav>
+  </div>
+<br/>
+<br/>
+  <div class="ssilki">
+<ol>
+	<li> <a href="http://example.com">Ссылка на главную страницу сайта example.com</a> </li>
+	<li> <a href="https://example.com">Ссылка на главную страницу сайта example.com с протоколом https</a> </li>
+	<li> <a href="ftp://ftp.example.com/file.txt"> FTP без авторизации </a> </li>
+	<li> <a href="ftp://login:password@ftp.example.com/file.txt"> FTP с авторизацией </a> </li>
+	<li> <a href="http://example.com/page#element_id"> Ссылка на фрагмент страницы некоторого сайта(в данном случае на фрагмент #element на странице page) </a></li>
+	<li> <a href="#frag">Ссылка ведущая на определенный фрагмент сайта </a> </li>
+	<li> <a href="http://example.com?productid=1&utm_source=opera">Ссылка c двумя параметрами в URL(в данном случае 1 параметр перенаправит пользователя на определенный продукт, а 2 параметр указывает на источник, который привел пользователя на сайт) </a> </li>
+
+
+	<p>список ссылок основной навигации сайта с подписями title</p>
+  </li>
+	<li> <a title="Это пустая ссылка">Ссылка без href </a> </li>
+	<li> <a href=" ">Ссылка с пустым href </a> </li>
+	<li> <a href="https://example.com" rel="nofollow">По этой ссылке не будет следовать Яндекс</a> </li>
+	<li><!--<noindex>--> <a href="https://example.com">Эта ссылка не будет индексироваться Яндексом </a> <!--</noindex>--> </li>
+	<li><p>Привет, <a href="https://example.com">это</a> контекстная ссылка </p> </li>
+	
+
+	<li>
+		<!--Первая карта-->
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmfMc1nHCc1xpbxsXG7snGWPP4cgoWfCE0BzGV8U--&s" width="211" height="30" alt="Навигация по сайту" usemap="#Navigation">
+	<p><map id="Navigation" name="Navigation">
+    <area shape="rect" coords="0,0,211,20" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz0EnuOZg3PaYh68H77waNI-Upi6EZFDV7fg&usqp=CAU" alt="1" title="Сложно">
+   </map></p>
+		<!--Вторая карта-->
+   <img src="https://clck.ru/y7gG4" height="100" usemap="#nav" alt="2">
+   <p><map id="nav" name="nav">
+   <area shape="circle" coords="50,50,50" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGZT6lFaEr3R8KP10q3NqOnTvxOPnuCcqcbw&usqp=CAU" alt="2" title="Слишком сложно">
+   </map></p>
+
+	</li>
+ 
+
+	<li> <a href="index.html">Относительная ссылка на страницу в текущем каталоге</a></li>
+	<li><a href="about/about.html">Относительная ссылка на страницу в каталоге about</a></li>
+	<li><a href="about/about.html">Относительная ссылка на страницу в каталоге уровнем выше текущего</a></li>
+	<li><a href="about/secondlvlcatalog/secondlvlpage.html">Относительная ссылка на страницу в каталоге двумя уровнями выше</a> </li>
+	<li><a href="second.html">Сокращенная ссылка на главную</a></li>
+	<li><a href="third.html">сокращенную ссылку на внутреннюю.</a> </li>
+</ol>
+</div>
+
+
+
+
+
+
+
+
+
+<form action="/"
+      method="POST">
+
+
+
+	<br/>
+	<h1>Форма</h1>
+	<label>Имя: <input name="field-name" value="Введите имя" /> </label>
+      <br/>
+      <label>Email: <input name="field-email" value="Введите вашу почту" /> </label>
+      <br/>
+      <label>Дата рождения: <input name="field-date" value="2022-09-06" type="date" /> </label>
+      <br/>
+      Пол:<br/>
+       <label><input type="radio" checked="checked" name="radio1" value="Значение1"/> Мужской</label>
+       <label><input type="radio" checked="checked" name="radio1" value="Значение2"/> Женский</label>
+       <br/>
+       Количество конечностей:<br/>
+       <label><input type="radio" checked="checked" name="radio2" value="Значение1"/> Одна</label>
+       <label><input type="radio" checked="checked" name="radio2" value="Значение2"/> Две</label>
+       <label><input type="radio" checked="checked" name="radio2" value="Значение3"/> Три</label>
+       <label><input type="radio" checked="checked" name="radio2" value="Значение4"/> Четыре</label>
+       <br/>
+       <label>
+        Сверхспособности:
+        <br/>
+        <select name="field-choose" multiple="multiple">
+          <option value="Значение1">Бессмертие</option>
+          <option value="Значение2">Прохождение сквозь стены</option>
+          <option value="Значение3">Левитация</option>
+        </select>
+      </label>
+      <br/>
+      Биография<br/>
+      <label>
+      <textarea name="field-bio">Расскажите о себе</textarea>
+ 	  </label>
+ 	  <br/>
+      <label><input type="checkbox" checked="checked"
+        name="check-1" />
+        С контрактом ознакомлен(а)</label>
+        <br/>
+        <input type="submit" value="Отправить" />
+    </form>
+
+
+<div class="table">
+  <table border="1" align="center" id="table">
+    <tr>
+      <th colspan="3">Сдвоенная ячейка</th>
+    </tr>
+
+    <tr>
+      <th class="tbl">Город</th>
+      <th>Время</th>
+      <th class="tbl">Дата</th>
+    </tr>
+    <tr>
+      <td>Краснодар</td>
+      <td class="tbl">19:00</td>
+      <td>26.09.2022</td>
+    </tr>
+      <tr>
+      <td class="tbl">Ростов</td>
+      <td>20:00</td>
+      <td class="tbl">27.09.2022</td>
+    </tr>
+        <tr>
+      <td>Питер</td>
+      <td class="tbl" >21:00</td>
+      <td>28.09.2022</td>
+    </tr>
+        <tr>
+      <td class="tbl" >Москва</td>
+      <td>22:00</td>
+      <td class="tbl">29.09.2022</td>
+    </tr>
+  </table>
+</div>
+
+    
+
+<p id="frag">Здравствуйте, я тот самый элемент на который ведет ссылка под номером 6 :)</p>
+
+<div class="footer">
+<footer>
+  © 4ard
+</footer>
+</div>
+</body>
+</html>
